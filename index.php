@@ -2,8 +2,8 @@
     //Konfigurasi untuk aplikasi facebook 
     define('APP_ID', '601245019919518'); 
     define('APP_SECRET', '12fbe805313cb80a6d7ec7f8b8d0d555'); 
-    define('MAIN_URL', 'https://github.com/ariadishut/aplikasifb/blob/master/index.php/'); 
-    define('APP_URL', 'http://apps.facebook.com/pilihdini/'); 
+    define('MAIN_URL', 'https://github.com/ariadishut/aplikasifb/index.php/'); 
+    define('APP_URL', 'https://apps.facebook.com/pilihdini/'); 
 
     if (isset($_GET['code'])){
         header("Location: " . APP_URL);
